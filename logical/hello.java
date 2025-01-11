@@ -11,7 +11,7 @@ public class hello {
         System.out.print("Enter the name:");
         String name = scan.next();
          
-        System.out.println(str.replace("name", name));
+        System.out.println("Hello, " + name);
 
         scan.close();
     }
