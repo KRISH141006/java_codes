@@ -1,8 +1,8 @@
+// WAJP to find out if give number is prime or not
+import java.util.Scanner;
 class Prime1
 {
-	public static void main(String[] args)
-	{
-		int n = Integer.parseInt(args[0]);
+	boolean isPrime(int n){
 		int count =0;
 		for(int i=1;i<=n;i++)
 		{
@@ -13,13 +13,22 @@ class Prime1
 		}
 
 		if(count==2)
-
 		{
-			System.out.println("Prime Number.");
+			return true;
 		}
 		else
 		{
-			System.out.println("Not a Prime Number.");
+			return false;
 		}
+
+	}
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+
+		System.out.println(new Prime1().isPrime(n));
+		scan.close();
+		
 	}
 }
