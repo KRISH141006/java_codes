@@ -43,6 +43,9 @@ class Prac_3 {
         ptemp.setCountry(sc.nextLine());
         emp.setPerAddr(ptemp);
         System.out.println(emp.displayEmployeeDetails());
+        emp.getCurrAddr().setCity("unKnown");
+        System.out.println(emp.displayEmployeeDetails());
+        System.out.println(temp.displayAddress());
 
     }
 }
