@@ -5,7 +5,7 @@ class Reverse{
 		for(;n>0;){
 			r=n%10;
 			n=n/10;
-			t=t+r;
+			t=t*10+r;
 		}
 		System.out.println("rev = "+ t);
 		

@@ -11,7 +11,7 @@
 // o/p = amt , igst , sgst , cgst
 import java.util.Scanner;
 
-public class Gst_Calc {
+public class gst_calc {
    
     public static void main(String[] args) {
         double amt;
@@ -30,7 +30,7 @@ public class Gst_Calc {
             System.out.print( "Enter the gst :-");
             gst = scan.nextDouble();
 
-            new Gst_Calc().printGst(amt,gst);   
+            new gst_calc().printGst(amt,gst);   
         }
         else if(ask==0){
             System.out.print("Enter the total :-");
@@ -39,7 +39,7 @@ public class Gst_Calc {
             System.out.print("Enter the gst :-");
             gst = scan.nextDouble();
 
-            new Gst_Calc().printRevGst(total,gst);
+            new gst_calc().printRevGst(total,gst);
         }
         else{
             System.out.println("Print a valid number");
