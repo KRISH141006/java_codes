@@ -1,6 +1,6 @@
 public class TestStudent {
     public static void main(String[] args) {
-        Student studentOne = new Student();
+        // Student studentOne = new Student();
         // Student studentTwo = new Student("123", "Arzoo", 47, "A");
         // System.out.println(studentOne.display());
         // System.out.println(studentTwo.display());
