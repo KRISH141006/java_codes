@@ -2,12 +2,12 @@ public class PracticalFive {
     public static void main(String[] args) {
         Person firstObj = new Person();
         Person secObj = new Person("Krish", "Sondagar");
-        firstObj.dislay();
-        firstObj.dislay(true);
-        firstObj.dislay(false);
-        secObj.dislay();
-        secObj.dislay(true);
-        secObj.dislay(false);
+        firstObj.display();
+        firstObj.display(true);
+        firstObj.display(false);
+        secObj.display();
+        secObj.display(true);
+        secObj.display(false);
     }
 }
 
@@ -29,12 +29,12 @@ class Person {
     }
 
     // to display fname and lname only
-    void dislay() {
+    void display() {
         System.out.println(this.fname + " " + this.lname);
     }
 
     // based on b display along with fullName
-    void dislay(boolean b) {
+    void display(boolean b) {
         // if (b)
         // System.out.println(this.fname + " " + this.lname + " " + this.fullName);
         // else
